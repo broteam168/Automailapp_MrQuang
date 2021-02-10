@@ -1,7 +1,24 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Automailapp_MrQuang.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SettingLogin_DistanceUsPa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1000 3000</Value>
+    </Setting>
+    <Setting Name="SettingLogin_DistanceLetterInput" Type="System.String" Scope="User">
+      <Value Profile="(Default)">600 1000</Value>
+    </Setting>
+    <Setting Name="SettingLogin_DistancePaLogin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2000 3000</Value>
+    </Setting>
+    <Setting Name="Userfb" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Vui lòng nhập </Value>
+    </Setting>
+    <Setting Name="Passfb" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Vui lòng nhập</Value>
+    </Setting>
+    <Setting Name="NumberPost" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

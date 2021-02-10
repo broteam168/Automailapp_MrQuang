@@ -8,21 +8,90 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace Automailapp_MrQuang.Properties
-{
+namespace Automailapp_MrQuang.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.8.1.0")]
+    public sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1000 3000")]
+        public string SettingLogin_DistanceUsPa {
+            get {
+                return ((string)(this["SettingLogin_DistanceUsPa"]));
+            }
+            set {
+                this["SettingLogin_DistanceUsPa"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("600 1000")]
+        public string SettingLogin_DistanceLetterInput {
+            get {
+                return ((string)(this["SettingLogin_DistanceLetterInput"]));
+            }
+            set {
+                this["SettingLogin_DistanceLetterInput"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2000 3000")]
+        public string SettingLogin_DistancePaLogin {
+            get {
+                return ((string)(this["SettingLogin_DistancePaLogin"]));
+            }
+            set {
+                this["SettingLogin_DistancePaLogin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Vui lòng nhập ")]
+        public string Userfb {
+            get {
+                return ((string)(this["Userfb"]));
+            }
+            set {
+                this["Userfb"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Vui lòng nhập")]
+        public string Passfb {
+            get {
+                return ((string)(this["Passfb"]));
+            }
+            set {
+                this["Passfb"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50")]
+        public int NumberPost {
+            get {
+                return ((int)(this["NumberPost"]));
+            }
+            set {
+                this["NumberPost"] = value;
             }
         }
     }
